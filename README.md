@@ -1,5 +1,5 @@
 # Networked-Painting
-A collaborative painting app that allows two people to paint on a same canvas over the network
+A collaborative painting app that allows two people to paint on the same canvas over the network
 
 ------------------
 CONTROLs :
