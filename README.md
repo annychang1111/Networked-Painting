@@ -11,6 +11,7 @@ ButtonPressed(Connect!): to Connect over the network
 
 MouseDragged: to Draw on the canvas
 
+
 (KeyPressed)
 
 "r": to Change R value of the brush color(color mode: RGB)
