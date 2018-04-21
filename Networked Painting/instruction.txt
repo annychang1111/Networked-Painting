@@ -1,0 +1,9 @@
+..\..\Users\ACER\electron-quick-start\node_modules\electron\dist\electron.exe "D:\1-School\studying\Large Systems\Networked Painting"
+
+'r'
+'g'
+'b'
+'e' eraser
+'-' increase brush size
+'+' decrease brush size
+'SPACE' clear canvas
