@@ -89,6 +89,7 @@ function connectTo() {
 		remoteHost.style('height', '18px');
 		remoteHost.style('text-align', 'center');
 		remoteHost.style('color', 'gray');
+		remoteHost.style('border-radius', '4px');
 		remoteHost.input(hideReHoVal);
 
 		remotePort = createInput('Remote Port');
@@ -97,6 +98,7 @@ function connectTo() {
 		remotePort.style('height', '18px');
 		remotePort.style('text-align', 'center');
 		remotePort.style('color', 'gray');
+		remotePort.style('border-radius', '4px');
 		remotePort.input(hideRePoVal);
 
 		localPort = createInput('Local Port');
@@ -105,6 +107,7 @@ function connectTo() {
 		localPort.style('height', '18px');
 		localPort.style('text-align', 'center');
 		localPort.style('color', 'gray');
+		localPort.style('border-radius', '4px');
 		localPort.input(hideLoPoVal);
 
 		button = createButton('Connect !');
@@ -113,9 +116,9 @@ function connectTo() {
 		button.style('height', '25px');
 		button.style('padding', '1px 3px');
 		button.style('border-style', 'none');
-		// button.style('border-color', '#d8d8d8');
 		button.style('background-color', '#d8d8d8');
 		button.style('color', '#2d2d2d')
+		button.style('border-radius', '4px');
 		button.mousePressed(connecting);
 
 
